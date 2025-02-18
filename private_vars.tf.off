@@ -1,0 +1,11 @@
+variable "AWS_key_pair_name" {
+  description = "Name of AWS key pair name used for SSH access"
+  type = string
+  default = "keyname" # Replace
+}
+
+variable "my_ip_address" {
+  description = "IP address of my workstation, to be used in security group settings"
+  type = string
+  default = "127.0.0.1/0" # Replace
+}
